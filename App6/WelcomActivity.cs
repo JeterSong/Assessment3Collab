@@ -23,7 +23,7 @@ namespace App6
 
             // Create your application here
 
-            UserName = FindViewById<TextView>(Resource.Id.welcom);
+            UserName = FindViewById<TextView>(Resource.Id.txtWelcome);
 
             UserName.Text = Intent.GetStringExtra("Username");
         }
