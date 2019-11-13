@@ -2720,11 +2720,11 @@ namespace App6
 			// aapt resource value: 0x7f0c0048
 			public const int bottom = 2131492936;
 			
-			// aapt resource value: 0x7f0c00ca
-			public const int btnBack = 2131493066;
+			// aapt resource value: 0x7f0c00c8
+			public const int btnBack = 2131493064;
 			
-			// aapt resource value: 0x7f0c00c9
-			public const int btnRegister = 2131493065;
+			// aapt resource value: 0x7f0c00c7
+			public const int btnRegister = 2131493063;
 			
 			// aapt resource value: 0x7f0c00a7
 			public const int btnlogin = 2131493031;
@@ -2810,9 +2810,6 @@ namespace App6
 			// aapt resource value: 0x7f0c00bc
 			public const int editCountry = 2131493052;
 			
-			// aapt resource value: 0x7f0c00c6
-			public const int editEmail = 2131493062;
-			
 			// aapt resource value: 0x7f0c00c0
 			public const int editFirstName = 2131493056;
 			
@@ -2822,8 +2819,8 @@ namespace App6
 			// aapt resource value: 0x7f0c00be
 			public const int editPassword = 2131493054;
 			
-			// aapt resource value: 0x7f0c00c8
-			public const int editPhone = 2131493064;
+			// aapt resource value: 0x7f0c00c6
+			public const int editPhone = 2131493062;
 			
 			// aapt resource value: 0x7f0c0088
 			public const int edit_query = 2131493000;
@@ -2915,9 +2912,6 @@ namespace App6
 			// aapt resource value: 0x7f0c00bb
 			public const int lblCountry = 2131493051;
 			
-			// aapt resource value: 0x7f0c00c5
-			public const int lblEmail = 2131493061;
-			
 			// aapt resource value: 0x7f0c00bf
 			public const int lblFirstName = 2131493055;
 			
@@ -2927,8 +2921,8 @@ namespace App6
 			// aapt resource value: 0x7f0c00bd
 			public const int lblPassword = 2131493053;
 			
-			// aapt resource value: 0x7f0c00c7
-			public const int lblPhone = 2131493063;
+			// aapt resource value: 0x7f0c00c5
+			public const int lblPhone = 2131493061;
 			
 			// aapt resource value: 0x7f0c0053
 			public const int left = 2131492947;
@@ -2951,14 +2945,14 @@ namespace App6
 			// aapt resource value: 0x7f0c0095
 			public const int map = 2131493013;
 			
-			// aapt resource value: 0x7f0c00ce
-			public const int masked = 2131493070;
+			// aapt resource value: 0x7f0c00cc
+			public const int masked = 2131493068;
 			
 			// aapt resource value: 0x7f0c00ae
 			public const int media_actions = 2131493038;
 			
-			// aapt resource value: 0x7f0c00cb
-			public const int message = 2131493067;
+			// aapt resource value: 0x7f0c00c9
+			public const int message = 2131493065;
 			
 			// aapt resource value: 0x7f0c003c
 			public const int middle = 2131492924;
@@ -3203,8 +3197,8 @@ namespace App6
 			// aapt resource value: 0x7f0c0013
 			public const int transition_transform = 2131492883;
 			
-			// aapt resource value: 0x7f0c00cc
-			public const int txtWelcome = 2131493068;
+			// aapt resource value: 0x7f0c00ca
+			public const int txtWelcome = 2131493066;
 			
 			// aapt resource value: 0x7f0c0038
 			public const int uniform = 2131492920;
@@ -3218,8 +3212,8 @@ namespace App6
 			// aapt resource value: 0x7f0c0016
 			public const int view_offset_helper = 2131492886;
 			
-			// aapt resource value: 0x7f0c00cd
-			public const int visible = 2131493069;
+			// aapt resource value: 0x7f0c00cb
+			public const int visible = 2131493067;
 			
 			// aapt resource value: 0x7f0c0026
 			public const int wide = 2131492902;

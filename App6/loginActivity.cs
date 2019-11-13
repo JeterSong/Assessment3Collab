@@ -30,22 +30,35 @@ namespace App6
             edun = FindViewById<EditText>(Resource.Id.edun);
             edpw = FindViewById<EditText>(Resource.Id.edpw);
 
-            /*btnlogin.Click += (sender, e) =>
+            btnsignup.Click += (sender, e) =>
+            {
+                Intent RegisterActivityIntent = new Intent(this, typeof(RegisterActivity));              
+                StartActivity(RegisterActivityIntent);
+            };
+
+            btnlogin.Click += (sender, e) =>
             {
                 Intent WelcomActivityIntent = new Intent(this, typeof(WelcomActivity));
                 WelcomActivityIntent.PutExtra("Username", edun.Text);
                 WelcomActivityIntent.PutExtra("Password", edpw.Text);
                 StartActivity(WelcomActivityIntent);
-            };*/
+            };
 
         }
 
-        public void btnlogin_Click(Object sender,EventArgs e)
-        {
-            Intent WelcomActivityIntent = new Intent(this, typeof(WelcomActivity));
-            WelcomActivityIntent.PutExtra("Username", edun.Text);
-            WelcomActivityIntent.PutExtra("Password", edpw.Text);
-            StartActivity(WelcomActivityIntent);
-        }
+        //public void btnlogin_Click(View v)//Object sender,EventArgs e)
+        //{
+        //    Intent WelcomActivityIntent = new Intent(this, typeof(WelcomActivity));
+        //    WelcomActivityIntent.PutExtra("Username", edun.Text);
+        //    WelcomActivityIntent.PutExtra("Password", edpw.Text);
+        //    StartActivity(WelcomActivityIntent);
+        //}
+
+        //public void btnsignup_Click(View v)//Object sender,EventArgs e)
+        //{
+        //    Intent RegisterActivityIntent = new Intent(this, typeof(RegisterActivity));
+            
+        //    StartActivity(RegisterActivityIntent);
+        //}
     }
 }

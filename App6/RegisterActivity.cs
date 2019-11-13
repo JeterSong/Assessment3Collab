@@ -15,7 +15,7 @@ namespace App6
     [Activity(Label = "RegisterActivity")]
     public class RegisterActivity : Activity
     {
-        Button btnRegister;Button btnBack; EditText editCountry; EditText editPassword;EditText editFirstName; EditText editLastName;EditText editAddress;EditText editEmail; EditText editPhone;
+        Button btnRegister;Button btnBack; EditText editCountry; EditText editPassword;EditText editFirstName; EditText editLastName;EditText editAddress;EditText editPhone;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -28,8 +28,13 @@ namespace App6
             editFirstName = FindViewById<EditText>(Resource.Id.editFirstName);
             editLastName = FindViewById<EditText>(Resource.Id.editLastName);
             editAddress = FindViewById<EditText>(Resource.Id.editAddress);
-            editEmail = FindViewById<EditText>(Resource.Id.editEmail);
             editPhone = FindViewById<EditText>(Resource.Id.editPhone);
+
+            btnBack.Click += (sender, e) =>
+            {
+                Intent loginActivityIntent = new Intent(this, typeof(loginActivity));
+                StartActivity(loginActivityIntent);
+            };
 
         }
     }

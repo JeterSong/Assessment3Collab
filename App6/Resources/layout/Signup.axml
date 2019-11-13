@@ -61,20 +61,8 @@
 	android:layout_width="match_parent"
 	android:layout_height="wrap_content"/>
 
-	<TextView android:id="@+id/lblEmail"
-		android:layout_below="@id/editAddress"
-		android:text="Email"
-	android:layout_width="match_parent"
-	android:layout_height="wrap_content"/>
-
-	<EditText android:id="@+id/editEmail"
-		android:inputType="textEmailAddress"
-	android:layout_below="@id/lblEmail"
-	android:layout_width="match_parent"
-	android:layout_height="wrap_content"/>
-
 	<TextView android:id="@+id/lblPhone"
-		android:layout_below="@id/editEmail"
+		android:layout_below="@id/editAddress"
 		android:text="Phone"
 	android:layout_width="match_parent"
 	android:layout_height="wrap_content"/>
@@ -83,6 +71,7 @@
 	android:layout_below="@id/lblPhone"
 	android:layout_width="match_parent"
 	android:layout_height="wrap_content"/>
+
 	<Button 
 		android:text="Register"
 		android:id="@+id/btnRegister"
@@ -96,8 +85,7 @@
 		android:id="@+id/btnBack"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"	
-		android:layout_below="@id/editPhone"
-		android:layout_toLeftOf="@id/btnRegister"
+		android:layout_below="@id/btnRegister"
 		android:layout_alignParentRight="true"
 	/>
 

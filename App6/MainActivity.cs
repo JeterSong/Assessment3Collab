@@ -136,5 +136,9 @@ namespace App6
                 getLastLocation(googleMap);
             }
         }
+        public void btnlogin_Click(Object sender, EventArgs e)
+        {
+            
+        }
     }
 }
