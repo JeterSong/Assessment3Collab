@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace App6
 {
-    [Activity(Label = "loginActivity")]
+    [Activity(Label = "loginActivity", MainLauncher = true)]
     public class loginActivity : Activity
     {
         Button btnsignup; EditText edun; EditText edpw; Button btnlogin;
@@ -23,21 +23,29 @@ namespace App6
 
             base.OnCreate(savedInstanceState);
             // Set our view from the "main" layout resource
-            SetContentView(Resource.Layout.activity_main);
+            SetContentView(Resource.Layout.login);
 
             btnsignup = FindViewById<Button>(Resource.Id.btnsignup);
             btnlogin = FindViewById<Button>(Resource.Id.btnlogin);
             edun = FindViewById<EditText>(Resource.Id.edun);
             edpw = FindViewById<EditText>(Resource.Id.edpw);
-            btnlogin.Click += (sender, e) =>
+
+            /*btnlogin.Click += (sender, e) =>
             {
                 Intent WelcomActivityIntent = new Intent(this, typeof(WelcomActivity));
                 WelcomActivityIntent.PutExtra("Username", edun.Text);
-                welcomActivityIntent.PutExtra("Password", edpw.Text);
-                StartActivity(welcomActivityIntent);
-            };
+                WelcomActivityIntent.PutExtra("Password", edpw.Text);
+                StartActivity(WelcomActivityIntent);
+            };*/
 
+        }
 
+        public void btnlogin_Click(Object sender,EventArgs e)
+        {
+            Intent WelcomActivityIntent = new Intent(this, typeof(WelcomActivity));
+            WelcomActivityIntent.PutExtra("Username", edun.Text);
+            WelcomActivityIntent.PutExtra("Password", edpw.Text);
+            StartActivity(WelcomActivityIntent);
         }
     }
 }

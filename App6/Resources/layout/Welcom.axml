@@ -9,7 +9,6 @@
 		android:textAppearance="?android:attr/textAppearanceLarge"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		android:gr
 		android:minWidth="25px"
 		android:minHeight="25px"
 		android:id="@+id/txtWelcome" />

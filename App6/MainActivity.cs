@@ -10,7 +10,7 @@ using Android.Gms.Maps.Model;
 
 namespace App6
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
+    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme")]
     public class MainActivity : AppCompatActivity,IOnMapReadyCallback
     {
 
