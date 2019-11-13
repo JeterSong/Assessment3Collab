@@ -15,7 +15,7 @@ namespace App6
     [Activity(Label = "WelcomActivity")]
     public class WelcomActivity : Activity
     {
-        TextView UserName;
+        TextView UserName;Button btnBluetooth; Button btnMassage; Button btnContinue;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -25,7 +25,15 @@ namespace App6
 
             UserName = FindViewById<TextView>(Resource.Id.txtWelcome);
 
-            UserName.Text = Intent.GetStringExtra("Username"+"Welcom");
+            UserName.Text = Intent.GetStringExtra("Username");
+
+            btnContinue = FindViewById<Button>(Resource.Id.btnContinue);
+
+            btnContinue.Click += (sender, e) =>
+            {
+                Intent MainActivityIntent = new Intent(this, typeof(MainActivity));
+                StartActivity(MainActivityIntent);
+            };
         }
     }
 }

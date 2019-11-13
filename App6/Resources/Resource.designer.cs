@@ -2723,6 +2723,15 @@ namespace App6
 			// aapt resource value: 0x7f0c00c8
 			public const int btnBack = 2131493064;
 			
+			// aapt resource value: 0x7f0c00cc
+			public const int btnBluetooth = 2131493068;
+			
+			// aapt resource value: 0x7f0c00ce
+			public const int btnContinue = 2131493070;
+			
+			// aapt resource value: 0x7f0c00cd
+			public const int btnMassage = 2131493069;
+			
 			// aapt resource value: 0x7f0c00c7
 			public const int btnRegister = 2131493063;
 			
@@ -2945,8 +2954,8 @@ namespace App6
 			// aapt resource value: 0x7f0c0095
 			public const int map = 2131493013;
 			
-			// aapt resource value: 0x7f0c00cc
-			public const int masked = 2131493068;
+			// aapt resource value: 0x7f0c00d0
+			public const int masked = 2131493072;
 			
 			// aapt resource value: 0x7f0c00ae
 			public const int media_actions = 2131493038;
@@ -3197,8 +3206,11 @@ namespace App6
 			// aapt resource value: 0x7f0c0013
 			public const int transition_transform = 2131492883;
 			
+			// aapt resource value: 0x7f0c00cb
+			public const int txtWelcome = 2131493067;
+			
 			// aapt resource value: 0x7f0c00ca
-			public const int txtWelcome = 2131493066;
+			public const int txtWelcome2 = 2131493066;
 			
 			// aapt resource value: 0x7f0c0038
 			public const int uniform = 2131492920;
@@ -3212,8 +3224,8 @@ namespace App6
 			// aapt resource value: 0x7f0c0016
 			public const int view_offset_helper = 2131492886;
 			
-			// aapt resource value: 0x7f0c00cb
-			public const int visible = 2131493067;
+			// aapt resource value: 0x7f0c00cf
+			public const int visible = 2131493071;
 			
 			// aapt resource value: 0x7f0c0026
 			public const int wide = 2131492902;

@@ -6,6 +6,16 @@
 
 	<TextView
 		android:text="Welcome"
+		android:gravity="center"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/txtWelcome2" />
+	
+	<TextView
+		android:text="Welcome"
 		android:textAppearance="?android:attr/textAppearanceLarge"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
@@ -14,7 +24,41 @@
 		android:gravity="center"
 		android:id="@+id/txtWelcome" />
 
+	<Button
+		android:id="@+id/btnBluetooth"
+		android:layout_width="wrap_content"
+		android:layout_height="79.0dp"
+		android:text="Bluetooth"
+		android:layout_marginBottom="0.0dp"
+		android:layout_marginTop="43.5dp"
+		android:layout_centerHorizontal="true"
+		android:layout_alignParentRight="true"
+		android:layout_marginRight="0.0dp"
+		android:clickable="true" />
 
-
+	<Button
+		android:id="@+id/btnMassage"
+		android:layout_width="wrap_content"
+		android:layout_height="79.0dp"
+		android:text="Massage"
+		android:layout_marginBottom="0.0dp"
+		android:layout_marginTop="43.5dp"
+		android:layout_centerHorizontal="true"
+		android:layout_alignParentRight="true"
+		android:layout_marginRight="0.0dp"
+		android:clickable="true" />
+	
+	<Button
+		android:id="@+id/btnContinue"
+		android:layout_width="wrap_content"
+		android:layout_height="79.0dp"
+		android:text="Continue"
+		android:layout_marginBottom="0.0dp"
+		android:layout_marginTop="43.5dp"
+		android:layout_centerHorizontal="true"
+		android:layout_alignParentRight="true"
+		android:layout_marginRight="0.0dp"
+		android:clickable="true" />
+		
 
 </LinearLayout>
